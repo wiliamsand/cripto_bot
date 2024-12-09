@@ -1,0 +1,29 @@
+# Ignorar diretórios de dependências
+/vendor/
+
+# Ignorar arquivos temporários do Composer
+composer.lock
+composer.phar
+
+# Ignorar arquivos de cache
+*.cache
+*.log
+
+# Ignorar arquivos de configuração do PHP
+phpunit.xml
+phpunit.xml.dist
+
+# Ignorar IDEs e editor de código
+.idea/
+.vscode/
+
+# Ignorar arquivos de ambiente (como .env com chaves de API e dados sensíveis)
+.env
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de compilação, como bin e build
+/bin/
+/build/
